@@ -30,6 +30,28 @@
     .container {
         max-width: 720px;
     }
+    .product__img {
+        width: 50%;
+    }
+    .product__img_mr {
+        margin-left: 20px;
+    }
+    .product__desc__mt {
+        margin: 0;
+    }
+    .footer__menu {
+        padding-left: 100px;
+    }
+    .product__img_mt {
+        margin: 0 20px;
+    }
+    .product__desc {
+        font-size: 18px;
+    }
+    .product__text {
+        font-size: 18px;
+        font-weight: 400;
+    }
 
 }
 @media (max-width: 768px) {
