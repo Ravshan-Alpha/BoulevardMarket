@@ -58,6 +58,46 @@
     .container {
         max-width: 540px;
     }
+    .header__title {
+        font-size: 70px;
+    }
+    .cards_card {
+        width: 455px;
+        height: 512px;
+    }
+    .card__img {
+        margin: 50px 0;
+        width: 30%;
+    }
+    .card__cost {
+        font-size: 20px;
+    }
+    .card__title {
+        font-size: 28px;
+    }
+    .card__link {
+        padding: 14px 60px;
+        font-size: 18px;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-content: center;
+        place-items: center;
+        gap: 10px;
+    }
+    .footer__nav .footer__menu {
+        display: none;
+    }
+    .product__line {
+        display: none;
+    }
+    .product__img_mt {
+        width: 25%;
+    }
+    .nav .menu {
+        margin-left: 30px;
+    }
 }
 @media (max-width: 540px) {
     .container {
